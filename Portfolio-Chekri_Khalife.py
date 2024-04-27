@@ -67,15 +67,24 @@ elif options == "Education":
 elif options == "Experience":
     st.markdown('<p class="big-font">Professional Experience</p>', unsafe_allow_html=True)
     st.markdown("""
-    - **Senior Business Analyst** at Maids.cc (Jan 2023 – Aug 2023)
-        - Directed a team of three analysts, leading the onboarding department and the YAYA app (maids' application)
-        - Collaborated with cross-departmental teams for efficient project execution
-        - Authored specifications and analyzed reports to identify and solve operational problems
-        - Conducted thorough testing of new requirements for an ERP system, two applications, and a website
-        - Improved the maid onboarding process, reducing the time for maids to become available to clients by 70% (from 10 days to 3 days)
-        - Spearheaded the automation of financial transactions, improving accuracy and time efficiency
-        - Collaborated with the medical department to manage maids' medical data through an ERP system
-    """)
+    **Senior Business Analyst at Maids.cc (Jan 2023 – Aug 2023):**
+    - Led a team of three analysts and the onboarding department, as well as the YAYA app, coordinating with various cross-departmental teams.
+    - Managed detailed project requirements and authored specifications processed through Jira for validation by technical BAs for development.
+    - Analyzed reports to identify operational problems, implementing data-driven solutions to enhance business processes.
+    - Conducted extensive testing of new requirements to ensure high-quality functionality across an ERP system, two applications, and a website.
+    - Streamlined the maid onboarding process, reducing the time for maids to become available to clients by 70%, enhancing client satisfaction and operational efficiency.
+    - Automated financial transactions, improving both the accuracy and time efficiency of financial operations.
+    - Collaborated with the medical department to create an ERP system screen for managing maids' medical data, facilitating medical leaves, and ensuring appropriate medication and care.
+
+    **Business Analyst Intern at Bennett&Ranville (Jun 2022 - Aug 2022):**
+    - Conducted market research using SWOT analysis to guide product development and improve competitive positioning.
+    - Utilized data analytics and designed Tableau dashboards to evaluate and visualize product features, providing actionable insights for product enhancement.
+    
+    **Market Research Intern at Charity Donation Foundation (Jun 2021 – Aug 2021):**
+    - Conducted market research on the Lebanese cracker industry, identifying key trends and strategic positioning opportunities.
+    - Set pricing strategies for Love Bites products, aligning with market standards and consumer expectations.
+    - Collaborated with the sales and delivery platform NokNok to feature Love Bites products, expanding market reach and customer accessibility.
+    """, unsafe_allow_html=True)
 
 elif options == "Extracurricular Activities":
     st.markdown('<p class="big-font">Extracurricular Activities</p>', unsafe_allow_html=True)
