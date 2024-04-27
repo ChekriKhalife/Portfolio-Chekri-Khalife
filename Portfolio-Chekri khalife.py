@@ -37,7 +37,7 @@ options = st.sidebar.radio("Navigate", ["About Me", "Education", "Experience", "
 if options == "About Me":
     st.markdown('<p class="big-font">About Me</p>', unsafe_allow_html=True)
     try:
-        image = Image.open('path_to_your_image.jpg')
+        image = Image.open('Chekri Image.jpeg')
         image = image.resize((300, 300))  # Resize the image
         st.image(image, caption='Chekri Khalife', use_column_width=False, output_format='PNG')
     except:
